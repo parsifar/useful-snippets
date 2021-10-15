@@ -1,0 +1,38 @@
+first time settings
+=======================
+git settings have 3 levels:
+1-system level: apply to all users on the current machine
+2-global level: apply to all repos of the current users
+3-local level: only apply to the current repo
+
+setting the global name and email:
+> git config --global user.name "Ali Parsifar"
+> git config --global user.email "parsifar@gmail.com"
+
+these settings get saved in the .gitconfig file in user's home directory.
+
+basic commands
+=======================
+initializing a new repo
+> git init
+
+this creates a hidden directory caled .git in the current directory.
+this directory contains the our local repo.
+
+checking the status
+> git status
+
+adding a snapshot of file(s) to the staging area
+> git add file1.txt
+> git add file1.txt file2.txt
+> git add *.html
+> git add .
+
+commiting a snapshot of the staging area to local repo
+> git commit -m "a msg about the commit"
+
+ignoring files and directories
+I can create a file called .gitignore and put any files or directories in ti to be ignored.
+
+checking the difference
+
