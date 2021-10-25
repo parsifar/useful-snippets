@@ -28,11 +28,24 @@ adding a snapshot of file(s) to the staging area
 > git add *.html
 > git add .
 
+removing the staged file(s)
+> git restore --staged file1.txt
+> git restore --staged .
+
 commiting a snapshot of the staging area to local repo
 > git commit -m "a msg about the commit"
 
 ignoring files and directories
-I can create a file called .gitignore and put any files or directories in ti to be ignored.
+I can create a file called .gitignore and put any files or directories in it to be ignored.
 
-checking the difference
+checking the difference between working directory and staging area
+> git diff
+
+checking the difference between the staging area and last commit
+> git diff --staged
+
+checking the history of commits
+> git log
+
+
 
