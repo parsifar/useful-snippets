@@ -1,0 +1,16 @@
+Ctrl + c
+this command is useful in two situations:
+1- when a command is running an I wanna kill it.
+2- when I'm typing a command in the terminal and I wanna go to a clean line without executing what I already typed.
+
+Ctrl + a
+when I'm typing a command in the  terminal, I can use this shortcut to jump to the start of the line
+
+Ctr + e
+when I'm typing a command in the  terminal, I can use this shortcut to jump to the end of the line
+
+Alt + f & Alt + b
+when typing a command on the terminal, I can use these shortcuts to jump one word Forward or Backward.
+
+
+

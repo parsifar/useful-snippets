@@ -47,5 +47,28 @@ checking the difference between the staging area and last commit
 checking the history of commits
 > git log
 
+Branches
+=======================
+check existing local branches
+> git branch
 
+check existing local & remote branches
+> git branch -a
 
+add a new local branch called dev-branch
+> git branch dev-branch
+
+go to dev-branch branch
+> git checkout dev-branch
+
+Then I can make changes in the new branch and commit those changes.
+This changes will be only commited to the local branch, because there's no remote branch associated with our new local branch.
+To create a new remore branch and associate it with or local branch
+
+> git push -u origin dev-branch
+
+deleting a local branch
+> git branch -d dev-branch
+
+deleting a remote branch
+> git push origin --delete dev-branch
