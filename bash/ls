@@ -1,0 +1,29 @@
+ls command lists the contents of directories or information about the files.
+
+to list the contents of a directory
+> ls /path/to/dir/
+
+to list info about a file
+> ls -l /path/to/file
+
+-l includes info about the permissions, owner, size ....
+
+-a lists all the contents including the hidden files
+
+for a directory, if I wanna see the info about the directory itself (rather than its contents) I use -d flag
+> ls -dl /path/to/dir/
+
+by default the size shown in the output is in bytes, for example for a text file with 800 characters it's 800 bytes. needless to say this can be hard to read for larger files. to make the size human readable I can use the -h flag
+> ls -lh /file/or/dir/
+
+-R lists the contents of a directory recursively
+ls -R /path/to/dir/
+
+Sorting:
+by default ls sorts the output alphabetically based on the filenames.
+
+-S sorts the output based on filesize (largest first)
+
+-t soerts based on time (newest first)
+
+-r reverses the order of sorting
